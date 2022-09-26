@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.form input {
+    padding: 10px;
+    margin: 5px;
+}
+
+.form button {
+    padding: 10px;
+    margin: 5px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+ 
+.photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
